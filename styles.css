@@ -1,0 +1,20 @@
+body {
+  background: #f3df49;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  background-image: url(logo-without-text.svg) top left;
+  background-size: 2em 2em;
+  font-family: 2em;
+  padding-left: 2.5em;
+  text-align: center;
+}
+
+p {
+  font-family: 1.5em;
+  text-align: center;
+}
