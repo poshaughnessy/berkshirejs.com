@@ -6,15 +6,32 @@ body {
   padding: 10px;
 }
 
-h1 {
-  background-image: url(logo-without-text.svg) top left;
-  background-size: 2em 2em;
-  font-family: 2em;
-  padding-left: 2.5em;
+header {
   text-align: center;
 }
 
+h1 {
+  display: inline-block;
+  font-size: 4em;
+  margin: 2rem auto;
+}
+
+h1 img {
+  float: left;
+  height: 5rem;
+}
+
 p {
-  font-family: 1.5em;
+  font-size: 1.5em;
   text-align: center;
+}
+
+a,
+a:active,
+a:visited {
+  color: #333;
+}
+
+a:hover {
+  color: #000;
 }
