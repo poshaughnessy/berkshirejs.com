@@ -12,13 +12,22 @@ header {
 
 h1 {
   display: inline-block;
-  font-size: 4em;
+  font-size: 2.5em;
   margin: 2rem auto;
 }
 
 h1 img {
   float: left;
-  height: 5rem;
+  height: 3rem;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 4em;
+  }
+  h1 img {
+    height: 5rem;
+  }
 }
 
 p {
@@ -34,4 +43,14 @@ a:visited {
 
 a:hover {
   color: #000;
+}
+
+.code-of-conduct .content {
+  padding: 0 10px;
+}
+
+.code-of-conduct p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: left;
 }
