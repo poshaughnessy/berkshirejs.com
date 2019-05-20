@@ -1,2 +1,2 @@
 # berkshirejs.com
-Website for Berkshire.JS
+Website for the Berkshire JS community.
